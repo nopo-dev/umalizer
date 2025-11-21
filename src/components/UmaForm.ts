@@ -1,5 +1,5 @@
 import { AppState } from '../app/state';
-import type { Uma, Spark, UmaParent } from '../app/types';
+import type { Uma, Spark } from '../app/types';
 import { renderUmaTable } from './UmaTable';
 
 export function createUmaForm(container: HTMLElement) {
